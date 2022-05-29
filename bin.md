@@ -1,5 +1,6 @@
 outside gitea: http://cn-hk-hkisl-1.natfrp.cloud:13533
 
+```plain
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
@@ -16,3 +17,4 @@ mode "$mode_system" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+```
